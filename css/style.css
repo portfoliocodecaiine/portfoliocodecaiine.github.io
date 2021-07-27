@@ -681,15 +681,19 @@ button[disabled] {
 
   .contact-container {
     padding-left: 10px;
-    padding-right: 10px;
-    width: 400px;
+    width: 370px;
+  }
+
+  .contact-p {
+    width: 280px;
+    padding-right: 20px;
   }
 
   .contact input {
-    width: 350px;
+    width: 300px;
   }
 
   .contact textarea {
-    width: 350px;
+    width: 300px;
   }
 }

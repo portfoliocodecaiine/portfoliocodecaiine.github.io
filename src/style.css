@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-image: url(http://i.imgur.com/w16HASj.png);
+  background-size: 100% 100%;
+  background-position: top center;
+}
+
+.card {
+  width: 400px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+}
+
+h1,
+h4 {
+  color: #fff;
+}
+
+.form-control {
+  margin-top: 10px;
+  height: 48px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #039be5;
+}
+
+.confirm-button {
+  height: 50px;
+  border-radius: 10px;
+}
+
+.top-title {
+  margin: 30px 40px 60px 100px;
+}
+
+span.title {
+  color: #fff;
+  font-size: 2.1rem;
+}
+
+.col-md-5 {
+  padding: 0 30px;
+}
+
+.col-md-4 {
+  margin: 0 50px;
+}
+
+.list-scores {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  border-radius: 15px;
+}
+
+.list-scores .list-score-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.list-scores .list-score-item:nth-child(2n) {
+  background-color: #ddd;
+}
+
+.btn-refresh {
+  border: 3px solid black;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.93);
+  -webkit-box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.93);
+  -moz-box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.93);
+}
+
+.btn-add {
+  border: 3px solid black;
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.93);
+  -webkit-box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.93);
+  -moz-box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.93);
+}
+
+.input-group {
+  margin: 35px 0;
+  display: block;
+}
+
+.input-group input::placeholder {
+  padding: 30px 5px;
+  font-weight: bold;
+  color: black;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    color: black;
+  }
+}
